@@ -21,19 +21,28 @@ h1 {
 h2 {
     color: darkblue
 }
-.topnav {
-    display: flex;
-    flex-direction: column;
-    border: darkblue;
-    box-shadow: pink;
-    color:lightblue;
+
+ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    width: 70px;
+    border: 1px;
+}
+
+li {
+    display: inline;
+    color: navy;
+    font-size: larger;
+}
+.topnav ul {
+    flex-direction: row;
 }
 .topnav a:link {
     color: white;
 
 }
 .topnav a:hover {
-    background-color: pink;
     color: #000;
 }
 
