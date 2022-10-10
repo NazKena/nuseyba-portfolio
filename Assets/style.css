@@ -54,9 +54,17 @@ body div {
     padding: 15px;
 }
 
-.logo {
-    height: 100px;
-    width: 100px;
+#about-me {
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 200px;
+    height: 300px;
+    border: #51280a
+}
+
+.container {
+    text-align: center;
 }
 
 /*-- Footer begins here --*/
