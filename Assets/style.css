@@ -1,21 +1,15 @@
 /*-- General Style --*/
-:root {
+* {
     box-sizing: border-box;
+    background-color: #E3BC9A
 }
-
-
-body {
-    background-color: beige; 
-}
-
 
 /*---Header begins here---*/
 
 h1 {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     color: #6b360f;
-    flex-direction: row;
-    justify-content: center;
 }
 
 
@@ -25,7 +19,19 @@ h2 {
 
 /*-- Nav begins here --*/
 
-ul {
+.topnav {
+    display: inline;
+    text-align: end;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.topnav ul {
     list-style: none;
     margin: 0 ;
     padding: 0;
@@ -33,25 +39,13 @@ ul {
     font-weight: lighter;
 }
 
-li {
-    display: inline;
-    color: #6b360f;
-    font-size: larger;
-}
-
-.topnav a:link {
+.topnav :active {
     color: white;
 
 }
 .topnav a:hover {
-    color: #000;
+    color: #6b360f
 }
-
-.topnav a.a:active {
-    background-color: green;
-    color: yellow;
-}
-
 
 /*-- Content begins here --*/
 
@@ -59,32 +53,18 @@ body div {
     width: 300px ;
     height: 100px;
     padding: 15px;
-    background-color: beige;
 }
 
-.images {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.logo {
     height: 100px;
     width: 100px;
 }
 
 /*-- Footer begins here --*/
 
-.footer {
-    color: navy;
-    text-align: center;
-}
-
-.images {
-    color: #000;
-}
-
 @media screen and (max-width: 657px) {
     body {
-        background-color: beige;
+        background-color: brown;
     }
 }
 
