@@ -51,6 +51,13 @@ li {
 
 /*-- Content begins here --*/
 
+body div {
+    width: 300px ;
+    height: 100px;
+    padding: 15px;
+    background-color: beige;
+}
+
 .images {
     display: flex;
     flex-direction: row;
@@ -58,32 +65,6 @@ li {
     align-items: center;
     height: 100px;
     width: 100px;
-}
-
-.contact {
-    background-color: purple;
-    color: aliceblue;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
-.about-me {
-    margin-bottom: 20px;
-    padding: 50px;
-    flex-wrap: wrap;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: blueviolet;
-    color: aliceblue;
-    flex-direction: column;
-    justify-content: flex-end;
-
-}
-
-.Creative-Work {
-    background-color: blueviolet;
-    color: aliceblue;
-    flex-direction: column;
-    justify-content: flex-end;  
 }
 
 /*-- Footer begins here --*/
