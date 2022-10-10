@@ -62,6 +62,10 @@ body div {
 
 /*-- Footer begins here --*/
 
+.footer {
+  
+}
+
 @media screen and (max-width: 657px) {
     body {
         background-color: brown;
