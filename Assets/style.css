@@ -49,12 +49,31 @@ h2 {
     color: #6b360f
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}    
 
 /*-- Content begins here --*/
 
 body div {
     width: 210px ;
     height: 168px;
+}
+
+div #container1 {
+    display: flex;
+}
+
+.container img {
+    width: 200x;
+    border-radius: 50%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
 }
 
 #about-me {
@@ -82,6 +101,11 @@ body div {
     height: 300px;
 }
 
+#creative-work img {
+    width: 300px;
+    border-radius: 50%;
+}
+
 #projects {
     text-align: center;
     left: 0;
@@ -90,13 +114,17 @@ body div {
 }
 
 .content {
-    width: 58px;
-    height: 58px;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    left: 80px;
+    top: 40px;
 }
+
 
 /*-- Footer begins here --*/
 
-.footer {
+#contact-me {
   display: flex;  
   flex-direction: row;
   left: 0;
