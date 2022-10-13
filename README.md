@@ -8,7 +8,7 @@ In this project, I had to write my own started code which included using both HT
 
 [Github link](https://github.com/NazKena/nuseyba-portfolio)
 
-## Deployed project link
+## Portfolio Link
 
-
+[Portfolio](https://nazkena.github.io/nuseyba-portfolio/)
 
