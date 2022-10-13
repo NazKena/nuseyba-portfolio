@@ -1,6 +1,14 @@
-# nuseyba-portfolio
+# Nuseyba's Porfolio
 
-![image](./Assets/Images/The%20Atlas%20Six-min%20(1).jpg)
+## Description
 
-![image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwhatshotblog.com%2Fbookstagram-props-for-your-book-flatlay%2F&psig=AOvVaw1y61jbqFCDDEm9oO3RfXAQ&ust=1664924072433000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLCzrNCTxfoCFQAAAAAdAAAAABAD)
+In this project, I had to write my own started code which included using both HTML and CSS. I created media queries to allow for phone users to view the same contents. I added nav and alt links to ensure accessiblity for all users.
+
+## Github Link
+
+[Github link](https://github.com/NazKena/nuseyba-portfolio)
+
+## Deployed project link
+
+
 
